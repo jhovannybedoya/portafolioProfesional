@@ -37,10 +37,10 @@ body.custom-bg-1{background:none;}
 #section-about.index-8.side-bg .background-image{background:url(../images/background/s2.jpg);}
 
 
--moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+ -moz-background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
     background-position:center center>
     background-attachment:fixed>
 }
