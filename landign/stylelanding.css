@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(51, 201, 201);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.title p {
+    font-size: 20px;
+    color: rgb(125, 22, 221);
+
+}
+.container{
+    width: 100%;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    /* max-width: 100px; */
+    /* margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);  */
+}
+#Resultado{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+}
+.titulo_reto{
+    font-size: 14px;
+    color: blue;
+}
+.linea{
+    border-top: 10px;
+    margin-bottom: 40px;
+}
+img {
+    width: 100%;
+    margin: 5px;
+    object-fit: cover;
+}
+.buscar{
+    position: absolute;
+    padding: 5px;
+    margin-left: 80%;
+    margin-top: 15px;
+}
+.buscar input{
+    width:0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+.btn{
+    position: absolute;
+    top:0;
+    right: 0;
+    background:#440080 ;
+    width: 55px;
+    height: 55px;
+    line-height: 10px;
+    text-align: center;
+    color: wheat;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.buscar:hover input{
+    width: 240px;
+}
+
+.buscar input:focus{
+    width: 240px;
+}
+@media screen and (max-width:1000px){
+    #resultado{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .container {
+        width: 90%;
+    }
+    #resultado{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size:22px;
+    }
+    .container{
+        width: 98%;
+    }
+    #resultado{
+        width: 80%;
+    }
+}
