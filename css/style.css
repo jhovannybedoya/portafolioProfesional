@@ -3419,8 +3419,7 @@ a.accordion-toggle, a:visited.accordion-toggle {
 .text-light .de_tab.tab_style_2 .de_tab_content {
 	border-top: solid 1px rgba(255, 255, 255, .1);
 }
-.de_light .de_tab.tab_style_2 .de_nav {
-}
+
 .de_light .de_tab.tab_style_2 .de_nav li {
 	float: none;
 	list-style: none;
