@@ -6356,9 +6356,9 @@ a.read_more i {
 .typed-strings p{position:absolute;}
 .typed-cursor{
 opacity: 1;
--webkit-animation: blink 0.7s infinite;
--moz-animation: blink 0.7s infinite;
-animation: blink 0.7s infinite;
+-webkit-animation: blink 40s infinite;
+-moz-animation: blink 60s infinite;
+animation: blink 120s infinite;
 }
 @keyframes blink{
 0% { opacity:1; }
